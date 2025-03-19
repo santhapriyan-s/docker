@@ -13,7 +13,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 echo "Cloning GitHub repository..."
-                git ''
+                git 'https://github.com/santhapriyan-s/docker.git'
             }
         }
 
